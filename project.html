@@ -2,6 +2,18 @@
 <html>
 
 <head>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-86N54G35MC"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-86N54G35MC');
+  </script>
+
+
   <!-- Basic -->
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -90,8 +102,39 @@
   </div>
 
 
+
+<style>
+  .hero_area {
+    margin: 0;
+    padding: 0;
+  }
+
+  .header_bottom {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  .project_section {
+    padding-top: 20px; /* Adjust this value as needed */
+    margin-top: -5px; /* Adjust this value as needed */
+  }
+
+  @media screen  and (min-width: 1200px) {
+    .project_section {
+      padding-top: 20px; /* Adjust this value as needed */
+      margin-top: -800px; /* Adjust this value as needed */
+
+    }
+  }
+</style>
+
+
+
+
+
+
   <!-- project section -->
-<section class="project_section layout_padding" style="background-color: lightblue">
+<section class="project_section layout_padding" style="background-color: lightgrey">
   <div class="container">
     <div class="heading_container">
       <h2>
@@ -196,11 +239,10 @@
   <!-- end info_section -->
 
   <!-- footer section -->
-  <footer class="footer_section">
+  <footer class="footer_section" style="background-color: darkorange">
     <div class="container">
       <p>
         &copy; <span id="displayYear"></span>
-        <a href="https://html.design/"></a>
       </p>
     </div>
   </footer>
